@@ -33,4 +33,6 @@ link.pack()
 
 # Download button
 download = ctk.CTkButton(app, text="Download", command= start_download)
-link.pack()
+link.pack(padx=10, pady=10)
+
+app.mainloop()
